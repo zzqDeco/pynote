@@ -28,3 +28,22 @@ list 是 python 支持的可变长数组，与 cpp 的 vector 类似。可以做
 
 注：可以用 del 关键字实现同样的效果，但不会返回值
 
+### remove
+
+```remove(element)```，移除第一个匹配的元素（估计原理是链式反应前向星）
+
+### clear
+
+清空 list
+
+### count
+
+```count(element)```，统计元素出现次数
+
+### len（不是内部方法）
+
+```len(vector)```，计算对应容器的 size
+
+## 总结
+
+list 是一个有序可重的混装容器ß
