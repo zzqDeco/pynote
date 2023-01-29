@@ -16,4 +16,15 @@ list 是 python 支持的可变长数组，与 cpp 的 vector 类似。可以做
 
 ### append
 
-```append(element)```，在末尾追加一个元素,O(1)
+```append(element)```，在末尾追加一个元素，O(1)
+
+### extend
+
+```extend(vector)```，在末尾追加一个容器，依次插入，复杂度取决于另一个容器的类型和大小
+
+### pop
+
+```pop(i)```，删除 i 位置上的元素并返回，O(n)
+
+注：可以用 del 关键字实现同样的效果，但不会返回值
+
