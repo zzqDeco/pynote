@@ -8,5 +8,16 @@ tuple（元组）的特点是无法被修改，使用小括号定义，由于元
 
 ### index
 
+```index(element)```，hash 查询某元素的位置，O(1)
+
 ### count
 
+```count(element)```，统计某个元素出现次数
+
+### len（不是内部方法）
+
+```len(vector)```，计算对应容器的 size
+
+## 总结
+
+tuple 是一个有序可重可修改的混装容器

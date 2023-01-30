@@ -44,6 +44,10 @@ list 是 python 支持的可变长数组，与 cpp 的 vector 类似。可以做
 
 ```len(vector)```，计算对应容器的 size
 
+### count
+
+```count(element)```，统计某个元素出现次数
+
 ## 总结
 
-list 是一个有序可重的混装容器ß
+list 是一个有序可重可修改的混装容器
