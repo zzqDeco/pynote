@@ -1,7 +1,9 @@
-a=10
+a = 10
+
 
 def adda():
-    a=99
-    return a*a
+    a = 99
+    return a * a
+
 
 print(adda())
